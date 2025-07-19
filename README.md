@@ -44,7 +44,7 @@ Given the heavy prescence of customer analysis for optimization and marketing in
 
 - **Python 3.13+**
 - **PostgreSQL** database (Supabase integration)
-- **OpenAI API** for
+- **OpenAI API**
 
 ## ⚡ Quick Start
 
