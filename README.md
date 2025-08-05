@@ -1,5 +1,8 @@
 # 🤖 CRM Agent - Inspiration and Exploration
 
+## Video Walkthrough Link (See Below for Feature Snippets)
+[Demo Video](https://drive.google.com/file/d/1xBSEoNHkYrbqGTImwnPKbjr-ZVa7gEKA/view?usp=sharing)
+
 Welcome to my first agent! I was inspired to start this project to learn how to build an intelligent Customer Relationship Management (CRM) system using AI agents, LangGraph, and real and synthezied customer data. Meet **Ralph** - your AI-powered marketing assistant who can analyze customer behavior, create personalized marketing campaigns, and automate email communications with Slack integrations.
 
 Given the heavy prescence of customer analysis for optimization and marketing in the e-ccommerce landscape, I believe that an agent assistant to help one perform these activities and automate would be helpful :)
@@ -12,6 +15,7 @@ Given the heavy prescence of customer analysis for optimization and marketing in
 - Design **personalized marketing campaigns** using AI
 - Integrate **PostgreSQL** with AI agents for real-time data analysis
 - Use **Model Context Protocol (MCP)** for tool integration
+- Integrate with 3rd party APIs like **Slack** for bot services
 
 ## 🏗️ Project Architecture
 
@@ -31,14 +35,29 @@ Given the heavy prescence of customer analysis for optimization and marketing in
 ## 🚀 Features
 
 - **🧠 Intelligent Customer Analysis**: Ralph analyzes customer purchase history and behavior patterns
+<img width="944" height="919" alt="RFM" src="https://github.com/user-attachments/assets/6108fc89-c3bd-477f-91e7-0e052f26686c" />
+
 - **📧 Personalized Email Campaigns**: Creates targeted marketing emails with customer-specific content
+<img width="586" height="366" alt="image" src="https://github.com/user-attachments/assets/6fc40a8b-3e56-4ff8-a45c-8aec628c2eaa" />
+<img width="641" height="211" alt="image" src="https://github.com/user-attachments/assets/6b525720-fba6-4048-8617-c422ad93035f" />
+
 - **🎯 Customer Segmentation**: Uses RFM analysis to categorize customers (Champions, At Risk, etc.)
+<img width="960" height="720" alt="Segmentation" src="https://github.com/user-attachments/assets/c4b6f527-8d7a-4314-86ba-33c5df8a5593" />
+
 - **✋ Human Approval**: Requires human review for sensitive actions like sending campaigns
+<img width="946" height="748" alt="Email-Campaign" src="https://github.com/user-attachments/assets/80beb653-ff88-4a05-8f8b-35e027da0254" />
+  
 - **📊 Real-time Data**: Works with actual retail transaction data
+<img width="1382" height="668" alt="image" src="https://github.com/user-attachments/assets/a521177a-58d9-4b79-99fc-1118594e7548" />
+<img width="1377" height="669" alt="image" src="https://github.com/user-attachments/assets/7424636f-d19b-4e8a-92f7-a0dd9c7fb25e" />
+
 - **🔄 Campaign Types**:
   - **Re-engagement**: Win back inactive customers
   - **Referral**: Leverage high-value customers for referrals
   - **Loyalty**: Thank and retain valuable customers
+  - And, if you are new to campaigns, simply ask Ralph to explain!
+ <img width="955" height="539" alt="Campaign-Learn" src="https://github.com/user-attachments/assets/698e2ceb-2dee-4607-b804-3b97e4a57b86" />
+
 
 ## 📋 Technologies Used
 
@@ -86,6 +105,7 @@ This project uses `uv` for dependency management. If you don't have `uv` install
 
 ```bash
 cd frontend
+uv pip install -e .
 uv run python chat_local.py
 ```
 
