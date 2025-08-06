@@ -7,6 +7,9 @@ Welcome to my first agent! I was inspired to start this project to learn how to 
 
 Given the heavy prescence of customer analysis for optimization and marketing in the e-ccommerce landscape, I believe that an agent assistant to help one perform these activities and automate would be helpful :)
 
+Note! Ralph also has an optional **yolo mode** which can be turned on in the chat_local.py file. 
+This will remove human approval and let Ralph take control over our campaign/email generation.
+
 ## 🎯 What I Learned
 
 - Built an AI agent using **LangGraph** and **OpenAI**
